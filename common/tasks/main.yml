@@ -1,0 +1,7 @@
+---
+# tasks file for common
+- name: install packages
+  apt: name={{ item }}
+   item:
+          - mc
+          - tree
